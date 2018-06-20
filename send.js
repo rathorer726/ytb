@@ -5,7 +5,7 @@ $('#contact_form').submit(function() {
 var dataString = 'name=' + name + '&email=' + email + '&message=' + message;
 		$.ajax({
 			type : "POST",
-			url : "save.php",
+			url : "/save.php",
 			data : dataString,
 			cache : false,
 			success : function() {				
