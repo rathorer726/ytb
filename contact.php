@@ -1,4 +1,10 @@
-<?php 
+<html>
+   <head>
+      <title>Contact</title>
+      <body>
+   
+   
+   <?php 
 if(!isset($_POST['userinput'])) {
    $input = '';
 } else {
@@ -9,3 +15,6 @@ if(!isset($_POST['userinput'])) {
     <input type="text" name="user-input"  value="<?php echo $input; ?>"/>
    <input type="submit" value="Submit">
 </form>
+         
+         </body>
+      </html>
